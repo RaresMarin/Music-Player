@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>My Spotify</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stil.css">
+    </head>
+    <body>
+        <h1>Music Player</h1>
+        <div class="flex">
+        <div class="container">
+            <h2>You listen to</h2>
+            <p id="Melodie">Chiamo io chiami tu</p><span id="Artist">Gaia</span>
+        <div class="container1">
+             <button onclick="inapoi()"><</button>
+            <img id="imagine" onclick="canta()" src="cover6.jpg" alt="Imagine"/>
+             <button onclick="inainte()">></button>
+        </div>
+            <audio  id="audio" autoplay controls>
+                <source src="song6.mp3" type="audio/mp3"/>
+            </audio>
+        </div>
+        <div class="Flex" id="B">
+            <h2>Lista de melodii</h2>
+            <li>Chiamo io chiami tu-Gaia</li>
+        </div>
+        </div>
+        <div class="Melodii">
+             <img id="imagine1"  onclick="schimba(1)" src="cover6.jpg" alt="Imagine"/>
+             <img id="imagine1"  onclick="schimba(2)"  src="cover7.jpg" alt="Imagine"/>
+             <img id="imagine1"  onclick="schimba(3)"  src="cover8.jpg" alt="Imagine"/>
+             <img id="imagine1"  onclick="schimba(4)" src="cover9.jpg" alt="Imagine"/>
+             <img id="imagine1"  onclick="schimba(5)"  src="cover10.jpg" alt="Imagine"/>
+             <img id="imagine1"  onclick="schimba(6)"  src="cover11.png" alt="Imagine"/>
+            </div>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
