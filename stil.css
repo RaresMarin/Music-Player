@@ -1,0 +1,137 @@
+body{
+    background-image: url("muzic\ player.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1{
+    text-align:center;
+    color: rgb(3, 43, 28);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 4rem;
+    font-style: italic;
+}
+h2{
+    text-align: center;
+    color: #ffffff;
+    margin:0;
+    width:100%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+p{
+    text-align: center;
+    color: #ffffff;
+    width:100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: rgb(3, 43, 28);
+    font-weight: bold;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    height: 50vh;
+    width:500px;
+    background-color:transparent;
+    backdrop-filter: blur(12px);
+}
+.container1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+img{
+    height:25vh;
+    width:25vh;
+    margin:10px;
+    cursor: pointer;
+}
+span{
+    text-align: right;
+    font-weight: bold;
+    color: rgb(3, 43, 28);
+    margin:0;
+    width:100%;
+    font-size:1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+audio{
+    height:25vh;
+    width:25vh;
+    display:block;
+    margin:auto;
+}
+.Melodii{
+    
+    display:flex;
+    justify-content: center;
+    margin: 20px;
+}
+button{
+    color:rgba(192, 245, 193, 0.621);
+    background-color: rgb(3, 43, 28);
+    padding:10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border:none;
+    border-radius: 10px;
+}
+.Flex{
+    backdrop-filter: blur(12px);
+    width: 60%;
+    float: right;
+    position:relative;
+    margin-top: -400px;
+    text-align: end;
+    color:white;
+    font-size: 1rem;
+    height:40vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+li{
+    list-style-type: none;
+    font-size: 1.2rem;
+    color:rgba(192, 245, 193, 0.621);
+    text-align: center;
+
+}
+@media (max-width:1306px)
+{
+    p{
+        font-size: 1.4rem;
+    }
+    span{
+        font-size: 1.3rem;
+    }
+    .container{
+    width:200px;
+}
+audio{
+    width:100%;
+}
+img{
+    height:15vh;
+    width:15vh;
+    margin:none;
+}
+.Melodii{
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.Flex{
+    margin-top:-330px;
+    width:40%;
+    height:25vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+li{
+    text-align: end;
+}
+}
