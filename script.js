@@ -1,7 +1,7 @@
-const melodii = ["song6.mp3","song7.mp3","song8.mp3","song9.mp3","song10.mp3","song11.mp3"];
-const cover = ["cover6.jpg","cover7.jpg","cover8.jpg","cover9.jpg","cover10.jpg","cover11.png"];
-const piese = ["Chiamo io chiami tu" , "Külm" , "Kohoney" , "Lies lay cold" , "Tiki" , "Cand imi este foame"];
-const artiste = ["Gaia" , "An-Marlen" , "Grisina" , "Ananda" , "Besa", "Moto Rap Trap"]
+const melodii = ["song6.mp3","song7.mp3","song8.mp3","song9.mp3","song10.mp3","song11.mp3", "song1.mp3", 'song2.mp3', "song3.mp3", "song4.mp3", "song5.mp3", "song12.mp3"];
+const cover = ["cover6.jpg","cover7.jpg","cover8.jpg","cover9.jpg","cover10.jpg","cover11.png","cover1.jpg" ,"cover2.jpg" ,"cover3.jpg" ,"cover4.jpg" ,"cover5.jpg" ,"cover12.jpg"];
+const piese = ["Chiamo io chiami tu" , "Külm" , "Kohoney" , "Lies lay cold" , "Tiki" , "Cand imi este foame" , "In the middle" , "Vip", "Dobrodosli", "Desolee" , "Dum tek tek" , "Ela"];
+const artiste = ["Gaia" , "An-Marlen" , "Grisina" , "Ananda" , "Besa", "Moto Rap Trap", "Natalia Barbu" , "J Kbello" , "Nina Zizic", "Mentissa","Hadise","Andromache"]
 document.getElementById("audio").addEventListener("ended", function() {
     inainte();
 
@@ -64,4 +64,33 @@ function inapoi(){
     {
         alert("Nu exista melodie anterioara!!!!")
     }
+}
+
+
+function filtru(index){
+    let imaginii = document.getElementsByClassName("imagine1");
+    for(let i=0;i<imaginii.length;i++)
+    {
+    imaginii[i].style.filter = "grayscale(100%)";
+    if(i==index)
+    imaginii[i].style.filter = "none";
+    imaginii[i].classList.add("anim");
+    }
+}
+
+function nu(){
+     let imaginii = document.getElementsByClassName("imagine1");
+    for(let i=0;i<imaginii.length;i++)
+    {
+    imaginii[i].style.filter = "none";
+    imaginii[i].classList.remove("anim");
+    }
+    }
+function filtru1(){
+    let imaginii = document.getElementsByClassName("imagine1");
+    for(let i=0;i<imaginii.length;i++)
+    {
+    imaginii[i].classList.add("anim");
+    }
+
 }
