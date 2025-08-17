@@ -38,6 +38,16 @@ p{
     width:500px;
     background-color:transparent;
     backdrop-filter: blur(12px);
+    border-radius: 30px;
+}
+.container:hover{
+    background-color:#ffffff20;
+}
+.Flex:hover{
+    background-color:#ffffff20;
+}
+.Melodii:hover{
+    background-color:#ffffff20;
 }
 .container1{
     display:flex;
@@ -46,6 +56,7 @@ p{
     width:100%;
 }
 img{
+    border-radius:30px;
     height:25vh;
     width:25vh;
     margin:10px;
@@ -67,7 +78,7 @@ audio{
     margin:auto;
 }
 .Melodii{
-    
+    border-radius: 30px;
     display:flex;
     justify-content: center;
     margin: 20px;
@@ -82,6 +93,7 @@ button{
     border-radius: 10px;
 }
 .Flex{
+    border-radius: 30px;
     backdrop-filter: blur(12px);
     width: 60%;
     float: right;
@@ -101,8 +113,35 @@ li{
     text-align: center;
 
 }
+.imagine1{
+    animation: 5s animatie infinite;
+    width:200px;
+}
+@keyframes animatie{
+    0%{transform:translate(100%)};
+    25%{transform:translate(50%)};
+    50%{transform:translate(0%)};
+    75%{transform:translate(50%)};
+    100%{transform:translate(100%)};
+}
+.Melodii{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width:98%;
+    
+}
+h3{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(3, 43, 28);
+
+}
 @media (max-width:1306px)
 {
+    .imagine1{
+    width:50px;
+    animation: 5s animatie infinite;
+
+    }
     p{
         font-size: 1.4rem;
     }
@@ -123,9 +162,12 @@ img{
 .Melodii{
     overflow-x: scroll;
     overflow-y: hidden;
+    width:98%;
+    
 }
 .Flex{
-    margin-top:-330px;
+    border-radius: none;
+    margin-top:-230px;
     width:40%;
     height:25vh;
     overflow-x: hidden;
@@ -134,4 +176,10 @@ img{
 li{
     text-align: end;
 }
+p{
+    font-size: 20px;
+}
+}
+.anim{
+    animation:none;
 }
