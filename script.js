@@ -14,7 +14,7 @@ function schimba(para){
     let artist = document.getElementById("Artist").textContent = artiste[para-1];
     let item = document.createElement("li");
     item.textContent = `${melodie}-${artist}`;
-    item.style.color = "rgba(192, 245, 193, 0.621)";
+    item.style.color = "rgb(3, 43, 28);";
     let lista = document.getElementById("B");
     lista.append(item)
 }
@@ -41,7 +41,7 @@ function inainte(){
     let artist = document.getElementById("Artist").textContent = artiste[random];
     let item = document.createElement("li");
     item.textContent = `${melodie}-${artist}`;
-    item.style.color = "rgba(192, 245, 193, 0.621)";
+    item.style.color = "rgb(3, 43, 28);";
     let lista = document.getElementById("B");
     lista.append(item)
     
