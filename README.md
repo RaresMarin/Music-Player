@@ -18,18 +18,18 @@ A music player with a preselected playlist in which you can listen to 12 songs o
   
 ## 🎶Playlist
 
--🇲🇩 In the middle - Electro Pop
--🇫🇷 Désole - Disco
--🇪🇪 Kulm - Electro dance
--🇷🇴 Cand imi este foame - Trap
--🇦🇱 Tiki - R&B
--🇺🇦 Kohoney - Pop
--🇪🇸 Vip - Afro
--🇭🇷 Lies lay cold - Dark Pop
--🇮🇹 Chiamo io chiami tu - Dance pop
--🇲🇪 Dobrodosli - Balad
--🇹🇷 Dum tek tek - Folk
--🇨🇾 Ela - Balkan Pop
+- 🇲🇩 In the middle - Electro Pop
+- 🇫🇷 Désole - Disco
+- 🇪🇪 Kulm - Electro dance
+- 🇷🇴 Cand imi este foame - Trap
+- 🇦🇱 Tiki - R&B
+- 🇺🇦 Kohoney - Pop
+- 🇪🇸 Vip - Afro
+- 🇭🇷 Lies lay cold - Dark Pop
+- 🇮🇹 Chiamo io chiami tu - Dance pop
+- 🇲🇪 Dobrodosli - Balad
+- 🇹🇷 Dum tek tek - Folk
+- 🇨🇾 Ela - Balkan Pop
 
 
 ## 📄 License
