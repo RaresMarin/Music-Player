@@ -22,10 +22,17 @@ h2{
 }
 p{
     text-align: center;
-    color: #ffffff;
     width:100%;
     font-family: 'Times New Roman', Times, serif;
     font-size: 2rem;
+    color: rgb(3, 43, 28);
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    width:100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
     color: rgb(3, 43, 28);
     font-weight: bold;
 }
@@ -114,8 +121,9 @@ li{
 
 }
 .imagine1{
+    width:15vh;
+    height: 15vh;
     animation: 5s animatie infinite;
-    width:200px;
 }
 @keyframes animatie{
     0%{transform:translate(100%)};
@@ -137,8 +145,16 @@ h3{
 }
 @media (max-width:1306px)
 {
+    h1{
+        font-size: 2rem;
+    }
+    li{
+        font-size:1rem;
+        color:rgb(3, 43, 28);
+    }
     .imagine1{
-    width:50px;
+    width:10vh;
+    height: 10vh;
     animation: 5s animatie infinite;
 
     }
@@ -149,10 +165,10 @@ h3{
         font-size: 1.3rem;
     }
     .container{
-    width:200px;
+    width:50vw;
 }
 audio{
-    width:100%;
+    width:60%;
 }
 img{
     height:15vh;
@@ -169,7 +185,7 @@ img{
     border-radius: none;
     margin-top:-230px;
     width:40%;
-    height:25vh;
+    height:30vh;
     overflow-x: hidden;
     overflow-y: scroll;
 }
