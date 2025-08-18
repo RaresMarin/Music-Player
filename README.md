@@ -13,7 +13,7 @@ A music player with a preselected playlist in which you can listen to 12 songs o
 - Pause the song by clicking on the song cover again
 - Shuffle the songs by presing the next button
 - Go back to the previous song
-- A list with all the listened songs which updates evrey single time u go back or to the next song;
+- A list with all the listened songs which updates evrey single time you go back or to the next song;
 - A galery with all images covers and when you press one it plays that song
   
 ## 🎶Playlist
