@@ -185,7 +185,7 @@ img{
     border-radius: none;
     margin-top:-230px;
     width:40%;
-    height:30vh;
+    height:25vh;
     overflow-x: hidden;
     overflow-y: scroll;
 }
@@ -198,4 +198,27 @@ p{
 }
 .anim{
     animation:none;
+}
+.play{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    width:100%;
+}
+section:hover{
+    background-color:#ffffff20;
+    border-radius:40px;
+}
+#Ce{
+    display:block;
+}
+section{
+    text-align:center;
+}
+#span{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    cursor:pointer;
+    font-size:3rem;
 }
