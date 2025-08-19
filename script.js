@@ -86,11 +86,28 @@ function nu(){
     imaginii[i].classList.remove("anim");
     }
     }
-function filtru1(){
+function filtru1(indexs , index){
     let imaginii = document.getElementsByClassName("imagine1");
-    for(let i=0;i<imaginii.length;i++)
+    for(let i=indexs;i<index;i++)
     {
     imaginii[i].classList.add("anim");
     }
 
+}
+function dispare(index){
+    let v = ["Give me some DANCE","Calm Your Mind", "Chill Night" ,  "Summer Vibes"];
+    let v1 = ["Kohoney-Grisina" , "Tiki-Besa", " Dum tek tek-Hadise" , "Vip-J Kbell"];
+    document.getElementById("Ce").style.display = "none";
+    document.getElementById("imagine").src = `${index}.png`;
+    document.getElementById("Artist").style.display ="none";
+    document.getElementById("Melodie").textContent = v[index-1];
+    document.getElementById("nu").textContent = "The playlist includes";
+    document.getElementById("li").style.display = "none";
+    for (let i=0;i<v1.length;i++)
+    {
+    let lip = document.createElement('li');
+    lip.textContent = v1[i];
+    let B = document.getElementById("B");
+    B.append(lip);
+    }
 }
