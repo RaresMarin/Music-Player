@@ -24,12 +24,13 @@
             </audio>
         </div>
         <div class="Flex" id="B">
-            <h2>Lista de melodii</h2>
-            <li>Chiamo io chiami tu-Gaia</li>
+            <h2 id="nu">You listened to</h2>
+            <li id="li">Chiamo io chiami tu-Gaia</li>
         </div>
-        </div>
+            <div id="Ce">
+        <h1>Songlist</h1>
      <h3>Your songs</h3>
-        <div class="Melodii" id="Mel" onmouseover="filtru1()">
+        <div class="Melodii" id="Mel" onmouseover="filtru1(0,15)" onmouseout="nu()">
              <img class="imagine1" onmouseover="filtru(0)" onmouseout="nu()"  onclick="schimba(1)" src="cover6.jpg" alt="Imagine"/>
              <img class="imagine1" onmouseover="filtru(1)" onmouseout="nu()" onclick="schimba(2)"  src="cover7.jpg" alt="Imagine"/>
              <img class="imagine1" onmouseover="filtru(2)" onmouseout="nu()" onclick="schimba(3)"  src="cover8.jpg" alt="Imagine"/>
@@ -47,13 +48,13 @@
              <img class="imagine1" onmouseover="filtru(14)" onmouseout="nu()" onclick="schimba(3)"  src="cover8.jpg" alt="Imagine"/>
         </div>
              <h3>Ballad</h3>
-        <div class="Melodii" style="overflow: hidden;" id="Mel" onmouseover="filtru1()">
+        <div class="Melodii" style="overflow: hidden;" id="Mel" onmouseout="nu()" onmouseover="filtru1(15,18)">
              <img class="imagine1" onmouseover="filtru(15)" onmouseout="nu()" onclick="schimba(4)" src="cover9.jpg" alt="Imagine"/>
              <img class="imagine1" onmouseover="filtru(16)" onmouseout="nu()" onclick="schimba(7)"  src="cover1.jpg" alt="Imagine"/>
              <img class="imagine1" onmouseover="filtru(17)" onmouseout="nu()" onclick="schimba(9)"  src="cover3.jpg" alt="Imagine"/>
             </div>
              <h3>Dance</h3>
-        <div class="Melodii" style="overflow: hidden;" id="Mel" onmouseover="filtru1()">
+        <div class="Melodii" style="overflow: hidden;" id="Mel" onmouseout="nu()" onmouseover="filtru1(18,24)">
              <img class="imagine1" onmouseover="filtru(18)" onmouseout="nu()" onclick="schimba(10)" src="cover4.jpg" alt="Imagine"/>
              <img class="imagine1" onmouseover="filtru(19)" onmouseout="nu()" onclick="schimba(5)"  src="cover10.jpg" alt="Imagine"/>
              <img class="imagine1" onmouseover="filtru(20)" onmouseout="nu()" onclick="schimba(8)"  src="cover2.jpg" alt="Imagine"/>
@@ -62,11 +63,30 @@
              <img class="imagine1" onmouseover="filtru(23)" onmouseout="nu()" onclick="schimba(11)"  src="cover5.jpg" alt="Imagine"/>
             </div>
                 <h3>Bops</h3>
-        <div class="Melodii" style="overflow: hidden;" id="Mel" onmouseover="filtru1()">
+        <div class="Melodii" style="overflow: hidden;" id="Mel" onmouseout="nu()" onmouseover="filtru1(24,28)">
             <img class="imagine1" onmouseover="filtru(24)" onmouseout="nu()" onclick="schimba(7)"  src="cover1.jpg" alt="Imagine"/>
             <img class="imagine1" onmouseover="filtru(25)" onmouseout="nu()" onclick="schimba(12)"  src="cover12.jpg" alt="Imagine"/>
             <img class="imagine1" onmouseover="filtru(26)" onmouseout="nu()" onclick="schimba(11)"  src="cover5.jpg" alt="Imagine"/>
             <img class="imagine1" onmouseover="filtru(27)" onmouseout="nu()" onclick="schimba(3)"  src="cover8.jpg" alt="Imagine"/>
+        </div>
+        </div>
+        <h1>Playlist</h1>
+        <div class="play">
+        <section>
+            <span id="span">+</span>
+        </section>
+        <section>
+            <img src="1.png" onclick="dispare(1)" alt="Playlist"/>
+        </section>
+        <section>
+            <img src="2.png" onclick="dispare(2)" alt="Playlist"/>
+        </section>
+        <section>
+            <img src="3.png" onclick="dispare(3)" alt="Playlist"/>
+        </section>
+        <section>
+            <img src="4.png" onclick="dispare(4)" alt="Playlist"/>
+        </section>
         </div>
             <footer>
                 &copy;Marincas Rares All Rights Reserved
