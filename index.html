@@ -7,6 +7,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="stil.css">
+        <link rel="icon" href="1.png" type="image/jpg">
     </head>
     <body>
         <h1>Music Player</h1>
@@ -15,10 +16,12 @@
             <h2>You listen to</h2>
             <p id="Melodie">Chiamo io chiami tu</p><span id="Artist">Gaia</span>
         <div class="container1">
-             <button onclick="inapoi()"><</button>
-            <img id="imagine" onclick="canta()" src="cover6.jpg" alt="Imagine"/>
-             <button onclick="inainte()">></button>
-        </div>
+             <button id="dia" onclick="inapoi()"><</button>
+             <button id="dia1" onclick="inainte1(-1)"><</button>
+             <img id="imagine" onclick="canta()" src="cover6.jpg" alt="Imagine"/>
+             <button id="noche" onclick="inainte()">></button>
+             <button id="noche1" onclick="inainte1(1)">></button>
+             </div>
             <audio  id="audio" autoplay controls>
                 <source src="song6.mp3" type="audio/mp3"/>
             </audio>
@@ -26,6 +29,10 @@
         <div class="Flex" id="B">
             <h2 id="nu">You listened to</h2>
             <li id="li">Chiamo io chiami tu-Gaia</li>
+            <li id="li1"></li>
+            <li id="li2"></li>
+            <li id="li3"></li>
+            <li id="li4"></li>
         </div>
             <div id="Ce">
         <h1>Songlist</h1>
@@ -71,10 +78,7 @@
         </div>
         </div>
         <h1>Playlist</h1>
-        <div class="play">
-        <section>
-            <span id="span">+</span>
-        </section>
+        <div class="play" id="play">
         <section>
             <img src="1.png" onclick="dispare(1)" alt="Playlist"/>
         </section>
@@ -86,6 +90,9 @@
         </section>
         <section>
             <img src="4.png" onclick="dispare(4)" alt="Playlist"/>
+        </section>
+        <section>
+            <span id="s1" onclick="intoarcem()">>></span>
         </section>
         </div>
             <footer>
