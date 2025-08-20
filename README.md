@@ -15,8 +15,9 @@ A music player with a preselected playlist in which you can listen to 12 songs o
 - Go back to the previous song
 - A list with all the listened songs which updates evrey single time you go back or to the next song;
 - A galery with all images covers and when you press one it plays that song
+- 4 new playlist that work only if you use the buttons <> , don't wait for the song to end beacause of the event listener is gonna be randomize
   
-## 🎶Playlist
+## 🎶Songlist
 
 - 🇲🇩 In the middle - Electro Pop
 - 🇫🇷 Désole - Disco
@@ -31,6 +32,28 @@ A music player with a preselected playlist in which you can listen to 12 songs o
 - 🇹🇷 Dum tek tek - Folk
 - 🇨🇾 Ela - Balkan Pop
 
+## 🛝Playlist
+
+-Give me some DANCE
+  Kohoney-Grisina
+  Tiki-Besa
+  Dum tek tek-Hadise
+  Vip-J Kbello
+-Calm your mind
+  In the middle-Natalia Barbu
+  Dobrodosli-Nina Zizic
+  Ela-Andromache
+  Külm-An-Marlen
+-Chill Nigth
+  Chiamo io chiami tu-Gaia
+  Dum tek tek-Hadise
+  Tiki-Besa
+  Cand imi este foame-Moto Rap Trap
+-Summer Vibes
+  Desolee-Mentissa
+  Tiki-Besa
+  In the middle-Natalia Barbu
+  Vip-J Kbello
 
 ## 📄 License
 
