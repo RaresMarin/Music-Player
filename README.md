@@ -36,24 +36,24 @@ A music player with a preselected playlist in which you can listen to 12 songs o
 
 - Give me some DANCE
   - Kohoney-Grisina
-  Tiki-Besa
-  Dum tek tek-Hadise
-  Vip-J Kbello
+  - Tiki-Besa
+  - Dum tek tek-Hadise
+  - Vip-J Kbello
 - Calm your mind
-  In the middle-Natalia Barbu
-  Dobrodosli-Nina Zizic
-  Ela-Andromache
-  Külm-An-Marlen
+  - In the middle-Natalia Barbu
+  - Dobrodosli-Nina Zizic
+  - Ela-Andromache
+  - Külm-An-Marlen
 - Chill Nigth
-  Chiamo io chiami tu-Gaia
-  Dum tek tek-Hadise
-  Tiki-Besa
-  Cand imi este foame-Moto Rap Trap
+  - Chiamo io chiami tu-Gaia
+  - Dum tek tek-Hadise
+  - Tiki-Besa
+  - Cand imi este foame-Moto Rap Trap
 - Summer Vibes
-  Desolee-Mentissa
-  Tiki-Besa
-  In the middle-Natalia Barbu
-  Vip-J Kbello
+  - Desolee-Mentissa
+  - Tiki-Besa
+  - In the middle-Natalia Barbu
+  - Vip-J Kbello
 
 ## 📄 License
 
