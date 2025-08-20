@@ -148,6 +148,9 @@ h3{
     h1{
         font-size: 2rem;
     }
+    h2{
+        font-size: 1.3rem;
+    }
     li{
         font-size:1rem;
         color:rgb(3, 43, 28);
@@ -191,6 +194,7 @@ img{
 }
 li{
     text-align: end;
+    font-size: 0.7rem;
 }
 p{
     font-size: 20px;
@@ -219,6 +223,15 @@ section{
     justify-content: center;
     align-items: center;
     height: 100%;
+    cursor:pointer;
+    font-size:3rem;
+}
+#s1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align:center;
     cursor:pointer;
     font-size:3rem;
 }
