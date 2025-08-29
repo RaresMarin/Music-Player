@@ -235,3 +235,7 @@ section{
     cursor:pointer;
     font-size:3rem;
 }
+a:hover{
+        color:rgba(192, 245, 193, 0.621);
+
+}
